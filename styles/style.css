@@ -51,6 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5px;  
+    height: calc(100vh - (42.4px + 56px));
 }
 #large_name {
     font-size: 72px;
@@ -65,6 +66,19 @@ body {
     text-align: center;
     padding: 10px;
 }
+.content button {
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: #f7ae39;
+    color: whitesmoke;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+.content button:hover {
+    filter: grayscale(0%);
+}
 .footer {
     display: flex;
     flex-flow: wrap row;
@@ -78,5 +92,12 @@ body {
 }
 .footer a {
     text-decoration: none;
+}
+.footer img {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+.footer img:hover {
+    filter: grayscale(0%);
 }
 /* Other colors to use include #9C5ECB and #f7ae39*/
