@@ -47,12 +47,14 @@ html, body {
 .container {
     display: flex;
     flex-flow: nowrap column;
-    justify-content: center;
     align-items: center;
     padding: 5px 5px 10px 5px;
-    min-height: calc(100vh - (42px + 56px));
+    min-height: calc(100vh - (42.4px + 76px));
 }
-#large_name {
+.container.home {
+    justify-content: center;
+}
+#large_title {
     font-size: 72px;
     width: 100%;
 }
@@ -63,7 +65,7 @@ html, body {
 .content {
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .content button {
     cursor: pointer;
@@ -97,4 +99,38 @@ html, body {
 }
 .footer img:hover {
     filter: grayscale(0%);
+}
+
+/* Portfolio  */
+.portfolio-grid {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    width: 50%;
+    padding-top: 10px;
+}
+.portfolio-item {
+    flex: 50%;
+    padding: 5px;
+}
+.portfolio-item img {
+    min-width: 275px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 500px) {
+    .small_name {
+        flex: 1 0 100%;
+        text-align: center;
+    }
+    #large_title {
+        font-size: 64px;
+    }
+    nav {
+        flex: 0 1 100%;
+        text-align: center;
+    }
+    .portfolio-item img {
+        width: 200px;
+    }
 }
