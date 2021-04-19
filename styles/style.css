@@ -5,10 +5,9 @@
     font-family: 'Montserrat', Arial;
     color: #A9A9A9;
 }
-body {
+html, body {
     position: relative;
-    height: 100%;
-    padding-bottom: 56px;
+    height: 100vh;
     background-color: #EFEFEF;
 }
 .header {
@@ -47,11 +46,11 @@ body {
 }
 .container {
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: nowrap column;
     justify-content: center;
     align-items: center;
-    padding: 5px;  
-    height: calc(100vh - (42.4px + 56px));
+    padding: 5px 5px 10px 5px;
+    min-height: calc(100vh - (42px + 56px));
 }
 #large_name {
     font-size: 72px;
@@ -81,12 +80,11 @@ body {
 }
 .footer {
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: nowrap row;
     justify-content: center;
     align-items: center;
     padding: 10px;
     width: 100%;
-    position: absolute;
     bottom: 0;
     background-color: whitesmoke;
 }
@@ -100,4 +98,3 @@ body {
 .footer img:hover {
     filter: grayscale(0%);
 }
-/* Other colors to use include #9C5ECB and #f7ae39*/
