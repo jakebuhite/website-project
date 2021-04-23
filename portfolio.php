@@ -26,6 +26,9 @@
             <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project4" /></div>
             <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project5" /></div>
             <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project6" /></div>
+            <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project7" /></div>
+            <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project8" /></div>
+            <div class="portfolio-item"><img src="https://fakeimg.pl/400x250/a9a9a9/" alt="project9" /></div>
         </div>
     </div>
     <div class="footer">
