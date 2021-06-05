@@ -6,3 +6,6 @@ It is composed of a homepage, portfolio page, contact page, and link to my resum
 
 ## Technology
 It is made in HTML, CSS, and PHP. Not a whole lot of PHP. It was mostly made w/ HTML and CSS. PHP was used for form handling and storing.
+
+## Installation
+In case you want to download and modify this project, simply download the project files and upload them to a server with the latest version of PHP.
